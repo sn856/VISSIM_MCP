@@ -188,7 +188,9 @@ Simulation result folders next to your network are written by Vissim itself.
   - Protected list (blocks changes to links, connectors, reference points and units): done
   - Tray icon, desktop shortcut, opening .inpx files by double-click: done
   - Signal phasing and timing input: in progress
-  - Traffic volume input: in progress
+  - Traffic volumes by time interval (e.g. 15 minutes): in progress
+  - Bulk traffic volume input from field survey Excel files: in progress
+  - Bulk editing of turning volumes (turning ratios): in progress
 - **Stage 3: Calibration and analysis**: in progress
   - GEH check and validation against field survey data: in progress
   - Analysis reports per alternative: in progress
