@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Run output (keep the folder only)
+runs/*
+!runs/.gitkeep
+
+# Vissim networks and images (test fixtures excepted)
+*.inpx
+*.layx
+*.png
+*.jpg
+!tests/fixtures/**
+!docs/images/*.png

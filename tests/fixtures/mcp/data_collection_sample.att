@@ -1,0 +1,9 @@
+$VISION
+* File: C:\runs\sample\network.inpx
+* Comment: Synthetic sample (not VISSIM data), mimics the data collection result format
+* Table: Data Collection Results
+$TABLE:DATACOLLECTIONMEASUREMENTEVALUATION
+$DATACOLLECTIONMEASUREMENTEVALUATION:SIMRUN;TIMEINT;DATACOLLECTIONMEASUREMENT;VEHS(ALL);SPEED(ALL);LENGTH(ALL)
+1;0-900;1;120;98.5;4.50
+1;0-900;2;64;101.2;4.80
+1;900-1800;1;118;97.1;4.52

@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vissim-mcp"
+version = "0.1.0"
+description = "Local MCP server that lets an AI assistant drive PTV Vissim 2026 over COM, safely"
+requires-python = ">=3.12"
+dependencies = [
+    "Pillow>=10",
+    "pywin32>=306; sys_platform == 'win32'",
+    "mcp>=2,<3",
+    "pystray>=0.19",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

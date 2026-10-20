@@ -1,0 +1,15 @@
+﻿$VISION
+* File: C:\runs\sample\network.inpx
+* Comment: Synthetic sample (not VISSIM data), mimics the travel time result format (Müller)
+* Date: 2026-10-12 10:00:00
+* PTV Vissim: 2026.00-00
+* 
+* Table: Vehicle Travel Time Results
+* 
+$VEHICLETRAVELTIMEMEASUREMENTEVALUATION:SIMRUN;TIMEINT;VEHICLETRAVELTIMEMEASUREMENT;TRAVTM(ALL);VEHS(ALL);DISTTRAV(ALL)
+1;0-900;1;123.45;80;1500.00
+1;0-900;2;98.10;75;1200.00
+1;900-1800;1;130.20;82;1500.00
+1;900-1800;2;;0;1200.00
+2;0-900;1;121.00;79;1500.00
+AVG;0-900;1;122.23;79.5;1500.00

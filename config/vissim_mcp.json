@@ -1,0 +1,73 @@
+{
+  "vissim": {
+    "progid": "Vissim.Vissim.26"
+  },
+  "port": 8766,
+  "protected": [
+    {
+      "type": "Link",
+      "ops": [
+        "create",
+        "delete",
+        "set"
+      ],
+      "attrs": [
+        "Wkt*",
+        "Length*",
+        "NumLanes",
+        "IsConn",
+        "FromLink",
+        "FromPos",
+        "ToLink",
+        "ToPos",
+        "zOffset*",
+        "Gradient",
+        "Level"
+      ]
+    },
+    {
+      "type": "Connector",
+      "ops": [
+        "create",
+        "delete",
+        "set"
+      ],
+      "attrs": [
+        "Wkt*",
+        "Length*",
+        "NumLanes",
+        "IsConn",
+        "FromLink",
+        "FromPos",
+        "ToLink",
+        "ToPos",
+        "zOffset*",
+        "Gradient",
+        "Level"
+      ]
+    },
+    {
+      "type": "LinkPolyPoint",
+      "ops": [
+        "set"
+      ],
+      "attrs": [
+        "*"
+      ]
+    },
+    {
+      "type": "NetPara",
+      "ops": [
+        "set"
+      ],
+      "attrs": [
+        "RefPointNet*",
+        "RefPointMap*",
+        "UnitLen*",
+        "TrafReg",
+        "LinkGradBas"
+      ]
+    }
+  ],
+  "protected_roots": []
+}
